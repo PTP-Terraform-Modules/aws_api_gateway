@@ -4,7 +4,7 @@ Terraform module for creating an API Gateway with Lambda Proxy integration.
 ## Input variables:
 * `api_gw_name` - The API Gateway Name
 * `integration_type` - The API Integration Type. Must be AWS_PROXY for Lambda proxy integration.
-* `http_method` - The API HTTP Method. Recommend ANY is used.
+* `http_method` - The API HTTP Method. Recommend using ANY to integrate with the Lambda.
 * `rest_api_stage_name` - The API Deployment Stage
 * `lambda_function_name` - The Lambda function name
 * `lambda_function_arn` - The ARN of the Lambda Function
